@@ -1,7 +1,7 @@
 # HackBio_Internship
-#Stage 0
-#Task 1
-*Learning Track 3: Data Science and Machine Learning*
+#**Stage 0**
+#**Task 1**
+***Learning Track 3: Data Science and Machine Learning***
 -Stage 0 (Writing)
 -Objective:
 In this stage, you will be assessed on your understanding of fundamental concepts in Data Science and Machine Learning and your ability to articulate these concepts clearly and concisely.
