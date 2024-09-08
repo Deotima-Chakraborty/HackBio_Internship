@@ -1,24 +1,37 @@
-# HackBio_Internship
-#**Stage 0**
-#**Task 1**
-***Learning Track 3: Data Science and Machine Learning***
--Stage 0 (Writing)
--Objective:
-In this stage, you will be assessed on your understanding of fundamental concepts in Data Science and Machine Learning and your ability to articulate these concepts clearly and concisely.
--Task Description:
--Write a short essay of approximately 400 words on one of the following concepts in Data Science and Machine Learning. Your essay should demonstrate your understanding of the chosen concept, its importance as it relates to cancer, and any relevant examples or case studies that illustrate its application.
--The curse of dimensionality
--Supervised Learning
--Unsupervised Learning
--Alphafold
--Bioinformatics databases for cancer
--TCGA
--CCLE
--RNA Seq
--Central dogma of molecular biology
--Clustering
--Protein-Protein Network Analysis
--KEGG.jp
--ENCODE
-*Topic Chosen* - Supervised Learning
 
+## Stage_0_HackBio_Internship
+
+#Stage 0
+##Task 1
+###Supervised Learning
+
+
+**Introduction**
+
+Supervised learning is a branch of artificial intelligence and machine learning. It uses labeled datasets to train algorithms for prediction or classification. It is applied to solve real-world problems. It is extensively used in epilepsy research for surgical planning, EEG analysis, and seizure detection. In bioinformatics, supervised learning uses machine learning (ML) to classify biological data, predict protein structures, and analyze gene expression, thereby boosting drug discovery and precision medicine. Supervised learning entails using statistical decision theory, Gaussian distribution, and nearest-neighbor methods to analyze and train machines on labeled data to predict outputs. In bioinformatics, supervised machine learning techniques such as Naive Bayes, Support Vector Machines (SVM), and Tree-Based Methods can be utilized for regression and classification tasks, supporting data analysis and forecasting.
+
+**Supervised learning in Bioinformatics**
+
+Supervised learning accounts for a lot of research activity in machine learning and many supervised learning techniques have found application in the processing of multimedia content. The defining characteristic of supervised learning is the availability of annotated training data. The name invokes the idea of a ‘supervisor’ that instructs the learning system on the labels to associate with training examples. Typically these labels are class labels in classification problems. Supervised learning algorithms induce models from these training data and these models can be used to classify other unlabelled data. In bioinformatics, supervised learning is applied to data analysis and classification using logistic regression, support vector machines, limited Boltzmann machines, artificial neural networks, and back-propagation. One example of tools that applied usage of supervised learning in the field of bioinformatics is KernelBiome. In bioinformatics, supervised learning is a potent instrument that makes it possible to analyse intricate biological data. Because algorithms like Support Vector Machines (SVM) and Artificial Neural Networks (ANN) can find patterns in patient data, it is very helpful in the prediction of disease. Since algorithms for breast cancer screening involve patient histories and medical imaging, ANNs are especially helpful in this area. Analysing photos from biological experiments and classifying biological data, including gene expression profiles, are two further uses for supervised learning. Its capacity for managing high-dimensional data is especially helpful in bioinformatics, where it improves our comprehension of biological systems.
+
+
+**Conclusion**
+
+AI and machine learning play a critical role in the advancement of bioinformatics by providing creative answers to challenging biological issues and setting the standard for further study in deep learning applications. Its significance in contemporary biomedical research is highlighted by the field's quick advancement.
+
+
+
+
+
+
+
+***References***
+
+
+1.Talukdar, J., Singh, T.P., Barman, B. (2023). Supervised Learning. In: Artificial Intelligence in Healthcare Industry. Advanced Technologies and Societal Change. Springer, Singapore. https://doi.org/10.1007/978-981-99-3157-6_4
+
+2.Cunningham, P., Cord, M., Delany, S.J. (2008). Supervised Learning. In: Cord, M., Cunningham, P. (eds) Machine Learning Techniques for Multimedia. Cognitive Technologies. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-75171-7_2
+
+3. Sohail, A., & Arif, F. (n.d.). Journal Pre-proof Supervised and unsupervised algorithms for bioinformatics and data science. https://doi.org/10.1016/j.pbiomolbio.2019.11.012
+
+4. Abdul, HAsan. (2023). Supervised learning and model analysis with compositional data. PLOS Computational Biology, 19(6):e1011240-e1011240. doi: 10.1371/journal.pcbi.1011240
