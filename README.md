@@ -1,37 +1,30 @@
 
-## Stage_0_HackBio_Internship
+# Stage 1
 
-#Stage 0
-##Task 1
-###Supervised Learning
-
+A Review on the paper titled "***Multi-omic machine learning predictor of breast cancer therapy response***".
 
 **Introduction**
 
-Supervised learning is a branch of artificial intelligence and machine learning. It uses labeled datasets to train algorithms for prediction or classification. It is applied to solve real-world problems. It is extensively used in epilepsy research for surgical planning, EEG analysis, and seizure detection(1). In bioinformatics, supervised learning uses machine learning (ML) to classify biological data, predict protein structures, and analyze gene expression, thereby boosting drug discovery and precision medicine. Supervised learning entails using statistical decision theory, Gaussian distribution, and nearest-neighbor methods to analyze and train machines on labeled data to predict outputs. In bioinformatics, supervised machine learning techniques such as Naive Bayes, Support Vector Machines (SVM), and Tree-Based Methods can be utilized for regression and classification tasks, supporting data analysis and forecasting (3).
+Systemic therapy and targeted therapy are examples of neoadjuvant treatment, which is being utilized more and more in breast cancer management to raise the rate of breast-conserving surgery and enhance survival. Neoadjuvant treatment is not well received by many patients, though. The complexity of tumor ecosystems has not been well captured by the few studies that have used single platform profiling. Better prognostic models should consider tumors as intricate ecosystems with communities of cancerous clones inside a milieu of stromal, vascular, and immune cell types that are impacted by therapy in order to enhance treatment response.
 
-**Supervised learning in Bioinformatics**
+**Solving the Problem**
 
-Supervised learning accounts for a lot of research activity in machine learning and many supervised learning techniques have found application in the processing of multimedia content. The defining characteristic of supervised learning is the availability of annotated training data. The name invokes the idea of a ‘supervisor’ that instructs the learning system on the labels to associate with training examples. Typically these labels are class labels in classification problems. Supervised learning algorithms induce models from these training data and these models can be used to classify other unlabelled data(2). In bioinformatics, supervised learning is applied to data analysis and classification using logistic regression, support vector machines, limited Boltzmann machines, artificial neural networks, and back-propagation. One example of tools that applied usage of supervised learning in the field of bioinformatics is KernelBiome. In bioinformatics, supervised learning is a potent instrument that makes it possible to analyse intricate biological data. Because algorithms like Support Vector Machines (SVM) and Artificial Neural Networks (ANN) can find patterns in patient data, it is very helpful in the prediction of disease. Since algorithms for breast cancer screening involve patient histories and medical imaging, ANNs are especially helpful in this area. Analysing photos from biological experiments and classifying biological data, including gene expression profiles, are two further uses for supervised learning. Its capacity for managing high-dimensional data is especially helpful in bioinformatics, where it improves our comprehension of biological systems(4).
+The microenvironment of the tumor and malignant cells form intricate ecosystems in breast malignancies. Responses to cytotoxic therapy are influenced by the relationships and makeup of these tumor ecosystems. This information has not been taken into account in attempts to develop response predictors. Before surgery, 168 patients receiving chemotherapy with or without HER2 (encoded by ERBB2)-targeted therapy had their breast tumors biopsied. The researchers gathered information on the clinical, digital pathology, genomic, and transcriptome profiles of these samples. These diagnostic biopsies' multi-omic characteristics were subsequently associated with pathology end points (complete remission or residual disease) during surgery. 
 
+**Key Findings of the Study**
+
+Researchers in this paper demonstrate that the pre-treated tumor environment influences the response to treatment, and that machine learning can be used to include the multi-omics landscape of the tumor into prediction models. After treatment, the extent of residual illness is consistently linked to pre-therapy characteristics such as tumor mutational and copy number landscapes, tumor growth, immunological infiltration, and T cell deficiency and exclusion. With an area under the curve of 0.87, a multi-omic machine learning model built using these features predicted a pathological full response in a dataset of 75 patients undergoing external validation. In summary, the baseline properties of the entire tumor ecosystem, as assessed by data integration and machine learning, dictate the response to treatment. It may be possible to create predictors for other malignancies using this method.
+
+**About the Methodology**
+
+The biological characteristics that were taken from a prospective neoadjuvant trial that gathered comprehensive pre-therapy tumour multi-omic data and linked it to the final response were defined here. The aspects of immune activation, evasion, and malignant cells were found to be related to the response to treatment. In order to create prediction models, these features—which were obtained via digital pathology, DNA and RNA sequencing, and clinicopathological variables—were fed into an ensemble machine learning technique. In separate, external cohorts, researchers verified the predictive models' accuracy and showed that the top performers combined genetic and clinicopathological data. It is possible to modify the general strategy to incorporate fewer or more recent features, and it is broadly relevant to other cancer types.
+
+**Diving Deeper into the Results**
+
+The research revealed that the baseline properties of the entire tumor ecosystem have a major role in determining response. As previously reported, tumor proliferation turned out to be a significant factor in determining response. Genomic characteristics such as TP53 mutations, tumor mutation burden, BRCA, HRD, and APOBEC mutational signatures, and chromosomal instability were linked to the response to chemotherapy in HER2− tumors and typically corresponded with proliferation. Surprisingly, response seems to be independent of proliferation in HER2+ tumors treated with chemotherapy and HER2-targeted antibodies. This observation has been documented before and ought to spur the investigation into the underlying mechanism. Remaining disease was linked to subclonal mutations and clonal diversity. This has also been observed in cases of oesophageal carcinoma, indicating that tumors with a variety of clones are more likely to harbor or be able to choose resistant subclones.
+
+The TiME in tumors that have not received treatment is a key factor in determining how well a treatment will work. Previous studies using mouse models have demonstrated that an immune-competent tumor microenvironment is necessary for a successful chemotherapeutic response. Our RNA expression data allowed for the deconvolution of immune subpopulations, and the results indicated that tumors that eventually developed pCR had both innate and adaptive immunity active. In addition to confirming our earlier findings that digital pathology-derived lymphocytic density is an independent predictor of pCR, researchers also demonstrate that it has a substantial correlation with the cytolytic activity score, which serves as a stand-in for CD8 and natural killer cytotoxic cells. Numerous studies have indicated that the infiltration of tumor lymphocytes, as determined by pathologists, can predict the response to chemotherapy and immunotherapy. International norms for scoring are also in place. It has been suggested that chemotherapy-induced immunogenic cell death—a term used to describe the direct involvement of the immune system in the destruction of tumor cells—45. Researchers speculate that such chemotherapy-induced immunogenic cell death is mediated by an activated immune infiltration in the tumor microenvironment in therapy-naive tumors.
 
 **Conclusion**
 
-AI and machine learning play a critical role in the advancement of bioinformatics by providing creative answers to challenging biological issues and setting the standard for further study in deep learning applications. Its significance in contemporary biomedical research is highlighted by the field's quick advancement (3).
-
-
-
-
-
-
-
-***References***
-
-
-1.Talukdar, J., Singh, T.P., Barman, B. (2023). Supervised Learning. In: Artificial Intelligence in Healthcare Industry. Advanced Technologies and Societal Change. Springer, Singapore. https://doi.org/10.1007/978-981-99-3157-6_4
-
-2.Cunningham, P., Cord, M., Delany, S.J. (2008). Supervised Learning. In: Cord, M., Cunningham, P. (eds) Machine Learning Techniques for Multimedia. Cognitive Technologies. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-75171-7_2
-
-3. Sohail, A., & Arif, F. (n.d.). Journal Pre-proof Supervised and unsupervised algorithms for bioinformatics and data science. https://doi.org/10.1016/j.pbiomolbio.2019.11.012
-   
-5. Abdul, HAsan. (2023). Supervised learning and model analysis with compositional data. PLOS Computational Biology, 19(6):e1011240-e1011240. doi: 10.1371/journal.pcbi.1011240
+When it comes to predicting medication response, machine learning models that incorporate data from digital pathology, molecular pathology, and clinical settings perform noticeably better than those that only use clinical factors. The models appear to be robust, as evidenced by the high accuracy in external validation. This could open the door to the use of digital pathology and molecular pathology to guide therapy selection in upcoming clinical trials, especially those involving adjuvant therapy. In a broader sense, the approach emphasizes the significance of integrating data in machine learning models for response prediction, and it has the potential to produce comparable predictors for additional cancer types.
