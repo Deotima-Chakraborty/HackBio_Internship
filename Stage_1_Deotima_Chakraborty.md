@@ -30,13 +30,20 @@ The TiME in tumors that have not received treatment is a key factor in determini
 When it comes to predicting medication response, machine learning models that incorporate data from digital pathology, molecular pathology, and clinical settings perform noticeably better than those that only use clinical factors. The models appear to be robust, as evidenced by the high accuracy in external validation. This could open the door to the use of digital pathology and molecular pathology to guide therapy selection in upcoming clinical trials, especially those involving adjuvant therapy. In a broader sense, the approach emphasizes the significance of integrating data in machine learning models for response prediction, and it has the potential to produce comparable predictors for additional cancer types.
 
 **References**
+
 Sammut, SJ., Crispin-Ortuzar, M., Chin, SF. et al. Multi-omic machine learning predictor of breast cancer therapy response. Nature 601, 623–629 (2022). https://doi.org/10.1038/s41586-021-04278-5
 
 **Contributors**
+
 Name: Sahana Rusum Slack ID: U07KTU83EL9  Email: rusumsahana2001@gmail.com
+
 Name: Zarak Imtiaz Khan Slack ID: U07K6J5SKP0 Email: khanzarak9799@gmail.com 
+
 Name: Deotima Chakraborty Slack ID: U07JP8RCZAT  Email: deotimac@gmail.com
-Name: Ramya Ailuri Slack ID:   Email: 
+
+Name: Ramya Ailuri Slack ID:   Email: ramya.ailuri01@gmail.com 
+
 **Other Links**
+
 https://www.linkedin.com/posts/deotima-chakraborty_library-loom-14-september-2024-activity-7240358395877146624-Ilid?utm_source=share&utm_medium=member_desktop
 
