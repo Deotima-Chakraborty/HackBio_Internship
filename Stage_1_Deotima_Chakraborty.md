@@ -33,6 +33,7 @@ When it comes to predicting medication response, machine learning models that in
 Sammut, SJ., Crispin-Ortuzar, M., Chin, SF. et al. Multi-omic machine learning predictor of breast cancer therapy response. Nature 601, 623–629 (2022). https://doi.org/10.1038/s41586-021-04278-5
 
 **Contributors**
-
+Name: Sahana Rusum Slack ID: U07KTU83EL9  Email: rusumsahana2001@gmail.com
+Name: Zarak Imtiaz Khan Slack ID: U07K6J5SKP0 Email: khanzarak9799@gmail.com 
 **Other Links**
 
