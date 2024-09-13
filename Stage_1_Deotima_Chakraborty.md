@@ -35,5 +35,8 @@ Sammut, SJ., Crispin-Ortuzar, M., Chin, SF. et al. Multi-omic machine learning p
 **Contributors**
 Name: Sahana Rusum Slack ID: U07KTU83EL9  Email: rusumsahana2001@gmail.com
 Name: Zarak Imtiaz Khan Slack ID: U07K6J5SKP0 Email: khanzarak9799@gmail.com 
+Name: Deotima Chakraborty Slack ID: U07JP8RCZAT  Email: deotimac@gmail.com
+Name: Ramya Ailuri Slack ID:   Email: 
 **Other Links**
+https://www.linkedin.com/posts/deotima-chakraborty_library-loom-14-september-2024-activity-7240358395877146624-Ilid?utm_source=share&utm_medium=member_desktop
 
