@@ -1,0 +1,6 @@
+Enrichment FDR,nGenes,Pathway Genes,Fold Enrichment,Pathway,URL,Genes
+0.000451858,3,171,49.99122807,Influenza A,http://www.genome.jp/kegg-bin/show_pathway?hsa05164 , TPSD1  TPSAB1  TPSB2
+0.054788726,1,38,74.98684211,Primary immunodeficiency,http://www.genome.jp/kegg-bin/show_pathway?hsa05340 , CD8B
+0.054788726,1,57,49.99122807,Glutathione metabolism,http://www.genome.jp/kegg-bin/show_pathway?hsa00480 , GSTA1
+0.054788726,1,68,41.90441176,Chemical carcinogenesis,http://www.genome.jp/kegg-bin/show_pathway?hsa05204 , GSTA1
+0.054788726,1,69,41.29710145,Drug metabolism,http://www.genome.jp/kegg-bin/show_pathway?hsa00982 , GSTA1
